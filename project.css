@@ -179,7 +179,7 @@ button {
 .elem {
     height: 450px;
     width: 47%;
-    border: 2px solid black;
+     border: 1px solid black; 
     border-radius: 30px;
     flex-shrink: 0;
     gap: 50px;
@@ -249,4 +249,15 @@ left: -108px;
 
 .black{
     background-color: black;
+}
+#wh{
+    background-color: white;
+}
+#ln{
+    background-color: #fff;
+    color: black;
+}
+
+#lm{
+    color: #fff;
 }
