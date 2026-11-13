@@ -172,12 +172,12 @@ button {
     width: 100%;
     padding: 40px 120px;
     display: flex;
-    flex-wrap: wrap;
+     flex-wrap: wrap; 
     justify-content: space-between;
 }
 
 .elem {
-    height: 400px;
+    height: 450px;
     width: 47%;
     border: 2px solid black;
     border-radius: 30px;
@@ -186,6 +186,8 @@ button {
     margin-bottom: 100px;
     box-shadow: 0px 13px 20px black;
     display: flex;
+    padding: 20px;
+
 
 }
 
@@ -193,10 +195,11 @@ button {
     height: 100%;
     width: 60%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px;
+
 
 }
 
@@ -206,10 +209,11 @@ button {
 }
 
 .elem-part2 img {
-    height: 40%;
-    position: relative;
-    top: 110px;
-    left: 20px;
+    height: 60%;
+position: relative;
+top: 95px;
+left: -108px;
+
 }
 
 .elem-part1 h2 {
@@ -218,6 +222,10 @@ button {
     background-color: #9AE975;
     padding: 0px 10px;
     border-radius: 10px;
+    width: fit-content;
+    white-space: nowrap;
+
+
 
 }
 
