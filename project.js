@@ -32,3 +32,9 @@ tl.from(".centre-part2 img",{
     opacity:0,
     duration:0.5
 },"-=0.3")
+
+tl.from(".section1bottom img",{
+    x:-40,
+    stagger:0.15,
+    opacity:0
+})
