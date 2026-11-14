@@ -1,3 +1,4 @@
+function pageAnimation() {
 var tl = gsap.timeline()
 
 tl.from("nav h1,nav h4,nav button",{
@@ -38,3 +39,6 @@ tl.from(".section1bottom img",{
     stagger:0.15,
     opacity:0
 })
+}
+
+// pageAnimation()
